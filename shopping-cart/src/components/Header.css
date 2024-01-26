@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 18px;
+    padding: 0px 10px;
+  }
+  #headTitle:hover{
+    border-bottom: 2px solid saddlebrown;
+    transform: scale(1.05);
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo img{
+    max-width: 40px;
+    margin-right: 5px;
+  }
+  #logotitle:hover{
+    transform: scale(1.1);
+  }
+  
+  .navigation .link{
+    padding: 10px;
+  }
+  
+  .navigation .link.active{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+  }
+  
+  .items{
+    font-weight: 500;
+    min-width: 70px;
+  }
+  #cardtitle:hover{
+    background-color: gray;
+  }
+  
+  @media screen and (max-width: 680px) {
+    .navigation{
+        display: none;
+    }
+  }
